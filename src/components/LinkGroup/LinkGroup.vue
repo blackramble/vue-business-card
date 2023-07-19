@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import LinkGroupItem from './LinkGroupItem.vue';
-import { LinkGroupItemProps } from './types.ts';
 
 const items = [
     { title: 'Instagram', href: 'https://www.instagram.com/hui_7/' },

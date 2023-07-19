@@ -3,7 +3,7 @@
     <div class="header">
         <div class="header-circle-img">
             <img
-                src="/IMG_0327 2.JPG"
+                src="/IMG.jpg"
                 alt=""
             />
         </div>

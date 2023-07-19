@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { LinkGroupItemProps } from './types';
 
 const { item } = defineProps(['item']);
 const { title, href } = item;
