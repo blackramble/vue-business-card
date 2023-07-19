@@ -1,15 +1,19 @@
-<script setup>
+<script setup lang="ts">
+import Header from '../Header/Header.vue';
+import LinkGroup from '../LinkGroup/LinkGroup.vue';
 console.log('MainContainer');
 </script>
 
 <template>
-    <div class="main-container">MainContainer</div>
+    <div class="back">
+        <div class="back-filter"></div>
+        <div class="main-container">
+            <Header />
+            <LinkGroup />
+        </div>
+    </div>
 </template>
 
 <style scoped lang="scss">
-.main-container {
-    max-width: 680px;
-
-    // background-color: aqua;
-}
+@import './mainContainer';
 </style>
