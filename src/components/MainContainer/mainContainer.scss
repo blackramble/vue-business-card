@@ -19,12 +19,14 @@
 .main-container {
     position: relative;
     margin: 0 auto;
-    padding-bottom: 5rem;
     max-width: 680px;
     min-height: 100vh;
     z-index: 2;
+}
 
-    // background-color: rgb(229, 229, 229);
-
-    // background-color: aqua;
+// 防止下方空間消失
+@media screen and (height <= 816px) {
+    .main-container {
+        padding-bottom: 5rem;
+    }
 }
