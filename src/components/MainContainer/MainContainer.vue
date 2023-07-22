@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Header from '../Header/Header.vue';
 import LinkGroup from '../LinkGroup/LinkGroup.vue';
-console.log('MainContainer');
 </script>
 
 <template>

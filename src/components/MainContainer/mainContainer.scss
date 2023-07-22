@@ -19,14 +19,8 @@
 .main-container {
     position: relative;
     margin: 0 auto;
+    padding-bottom: 2rem;
     max-width: 680px;
     min-height: 100vh;
     z-index: 2;
-}
-
-// 防止下方空間消失
-@media screen and (height <= 816px) {
-    .main-container {
-        padding-bottom: 5rem;
-    }
 }

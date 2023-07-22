@@ -1,4 +1,4 @@
-export interface LinkGroupItemProps {
+export interface linkGroupArrType {
     title: string;
     href: string;
 }

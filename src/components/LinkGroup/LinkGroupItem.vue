@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import { linkGroupArrType } from './types';
 
-const { item } = defineProps(['item']);
+const { item } = defineProps<{ item: linkGroupArrType }>();
 const { title, href } = item;
 </script>
+
 <template>
     <a
         class="link-group-item"
@@ -13,6 +15,7 @@ const { title, href } = item;
         {{ title }}
     </a>
 </template>
+
 <style scoped lang="scss">
 @import './linkGroup';
 </style>

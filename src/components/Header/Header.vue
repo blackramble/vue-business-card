@@ -1,10 +1,11 @@
 <script setup lang="ts"></script>
+
 <template>
     <div class="header">
         <div class="header-circle-img">
             <img
                 src="/IMG.jpg"
-                alt=""
+                alt="blackramble"
             />
         </div>
         <h1 class="title">@blackramble</h1>
@@ -12,11 +13,12 @@
             Frontend Developer | HODLER
             <img
                 src="/bitcoin.png"
-                alt=""
+                alt="bitcoin"
             />
         </h2>
     </div>
 </template>
+
 <style scoped lang="scss">
 $head-sticker: 120px;
 
